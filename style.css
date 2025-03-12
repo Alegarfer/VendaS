@@ -1,0 +1,211 @@
+
+/* Google Fontes: Importa a fonte Poppins do Google Fonts para ser usada no site. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+   --color-primary-1: #f0f8f0;
+   --color-primary-2: #e6eed6;
+   --color-primary-3: #c3d9af;
+   --color-primary-4: rgb(144, 238, 144);
+   --color-primary-5: #32cd32;
+   --color-primary-6: #fae04b;
+
+   --color-neutral-0: #fff;
+   --color-neutral-1: #333;
+}
+
+/* Reset do CSS padrão do navegador */
+* {
+   color: #020202;
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: var(--color-primary-6);
+}
+
+
+
+ul#imagens-fotos{
+   
+margin: 0 auto;
+padding: 50px;
+overflow: hidden;
+list-style: none;
+}
+
+ul#imagens-fotos li{
+float: left;
+width: 200px;
+height: 200px;
+margin: 50px;
+border: solid rgb(66, 233, 15)
+background-color: rgb(red, green, blue)
+box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+
+}
+
+ul#imagens-fotos li span{
+opacity: 0; 
+color: #ffffff;
+text-shadow: 1px 1px 1px #000000;
+background-color: rgba(112, 32, 32, 0.192);
+font-size: 9pt;
+line-height: 370px;
+padding: 5px;
+}
+
+ul#imagens-fotos li:hover{
+-webkit-transform: scale(1.5);
+}
+
+ul#imagens-fotos li:hover span{
+
+opacity: 1;}
+
+
+ul#imagens-fotos li#foto01{
+background: url(/imagens/foto01.jpg);
+background-position: 50% 50%;
+background-size: 782px 782px;
+background-color: #fffbe9;
+}
+ul#imagens-fotos li#foto01{
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#imagens-fotos li#foto02 {
+   background: url(/imagens/foto02.jpg);
+   background-position: 50% 50%;
+   background-size: 782px 782px;
+   background-color: #fffbe9;
+}
+
+ul#imagens-fotos li#foto02 {
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}
+
+ul#imagens-fotos li#foto03 {
+   background: url(/imagens/foto03.jpg);
+   background-position: 50% 50%;
+   background-size: 782px 782px;
+   background-color: #fffbe9;
+}
+
+ul#imagens-fotos li#foto03 {
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}
+
+ul#imagens-fotos li#foto04 {
+   background: url(/imagens/foto04.jpg);
+   background-position: 50% 50%;
+   background-size: 782px 782px;
+   background-color: #fffbe9;
+}
+
+ul#imagens-fotos li#foto04 {
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}
+
+ul#imagens-fotos li#foto05 {
+   background: url(/imagens/foto05.jpg);
+   background-position: 50% 50%;
+   background-size: 782px 782px;
+   background-color: #fffbe9;
+}
+
+ul#imagens-fotos li#foto05 {
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}
+
+ul#imagens-fotos li#foto06 {
+   background: url(/imagens/foto06.jpg);
+   background-position: 50% 50%;
+   background-size: 782px 782px;
+   background-color: #fffbe9;
+}
+
+ul#imagens-fotos li#foto06 {
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}
+
+ul#imagens-fotos li#foto07 {
+   background: url(/imagens/foto01.jpg);
+   background-position: 50% 50%;
+   background-size: 782px 782px;
+   background-color: #fffbe9;
+}
+
+ul#imagens-fotos li#foto07 {
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}
+
+ul#imagens-fotos li#foto08 {
+   background: url(/imagens/foto08.jpg);
+   background-position: 50% 50%;
+   background-size: 782px 782px;
+   background-color: #fffbe9;
+}
+
+ul#imagens-fotos li#foto08 {
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}
+
+ul#imagens-fotos li#foto09 {
+   background: url(/imagens/foto09.jpg);
+   background-position: 50% 50%;
+   background-size: 782px 782px;
+   background-color: #fffbe9;
+}
+
+ul#imagens-fotos li#foto09 {
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}
+
+ul#imagens-fotos li#foto10 {
+   background: url(/imagens/foto10.jpg);
+   background-position: 50% 50%
+   background-size: 782px 782px;
+   background-color: #fffbe9;
+}
+
+ul#imagens-fotos li#foto10 {
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}
+
+ul#imagens-fotos li#foto11 {
+   background: url(/imagens/foto11.jpg);
+   background-position: 50% 50%;
+   background-size: 782px 782px;
+   background-color: #fffbe9;
+}
+
+ul#imagens-fotos li#foto11 {
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}
+
+ul#imagens-fotos li#foto12 {
+   background: url(/imagens/foto12.jpg);
+   background-position: 50% 50%;
+   background-size: 782px 782px;
+   background-color: #fffbe9;
+}
+
+ul#imagens-fotos li#foto12 {
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}
